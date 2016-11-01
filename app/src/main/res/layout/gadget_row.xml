@@ -10,7 +10,7 @@
     android:paddingBottom="8dp"
     android:minHeight="56dp">
 
-    <TextView
+    <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
