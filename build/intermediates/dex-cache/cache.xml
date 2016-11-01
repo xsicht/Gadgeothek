@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="864f455eb7acf18953363b1228517dbe6239a34a">
+        sha1="b575400dd4f0f0438a476d1702e1e82b5c114297">
         <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_01228f48ab132811c71a0e14353a93232367b881\classes.dex" />
     </item>
     <item
@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="00d75f542e57185ed6b91140656867abd0fbbee6">
+        sha1="0068299dbe172c0722ce9f3d4c224dc82a429775">
         <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ecfcd13ef8fa1b42e79db211954acfb48cfcc03c\classes.dex" />
     </item>
     <item
