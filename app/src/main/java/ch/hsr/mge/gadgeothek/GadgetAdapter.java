@@ -3,7 +3,6 @@ package ch.hsr.mge.gadgeothek;
 import java.util.List;
 import ch.hsr.mge.gadgeothek.domain.Gadget;
 
-import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -44,11 +43,10 @@ public class GadgetAdapter extends RecyclerView.Adapter<GadgetViewHolder> {
                         Log.d("test","test");
                         //mainActivity.switchTo(new ReservationFragment());
                     }
-
+                    
                     @Override
                     public void onError(String message) {
                         //Toast.makeText(mainActivity, "Fehler bei Löschung", Toast.LENGTH_SHORT).show();
-
                     }
                 });
             }
