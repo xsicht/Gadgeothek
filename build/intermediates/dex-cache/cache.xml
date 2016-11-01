@@ -21,39 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_bc3c9621804df345c665421a86ac235839609ca2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Master Dave\.gradle\caches\modules-2\files-2.1\com.ning\async-http-client\1.9.31\ce3221f788b53e2175559e7a936f07f4d263854f\async-http-client-1.9.31.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ce3221f788b53e2175559e7a936f07f4d263854f">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\async-http-client-1.9.31_056c5d11fcfa49b7b3be744591f8562cf7aacb23\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
         <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_81a13997f4026334bd89b978c83f56b4d59cdd4a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_fd65dac0c5e00f76d2f38c4933f0537ae6d85de1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,30 +48,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Master Dave\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_08011eee1569e2207b0fb5f92efb365b062da20c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_4fc681b1dc27d08e5ca918061fae25730bfd7bdc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_e30945bfedd2f8655b3bb3239a3fb4b7869fa9be\classes.dex" />
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.0.1_b172407e0361e3c071f5c978718095ef59a32e4f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -108,24 +63,6 @@
         revision="25.0.0"
         sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
         <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_050bad6ce9f88cd661444344dfdfb755d5c9a8b4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_a140a6c176012a1b364fb64420a783f9f6e9204b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_48b4c124481aad76ba39bf20befff027b24c2a20\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,21 +84,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Master Dave\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.12\8e20852d05222dc286bf1c71d78d0531e177c317\slf4j-api-1.7.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e20852d05222dc286bf1c71d78d0531e177c317">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.12_0ef420ae4581c69d7d5ac9f42d8e524b1c5da412\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Master Dave\.gradle\caches\modules-2\files-2.1\com.ning\async-http-client\1.9.31\ce3221f788b53e2175559e7a936f07f4d263854f\async-http-client-1.9.31.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce3221f788b53e2175559e7a936f07f4d263854f">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\async-http-client-1.9.31_056c5d11fcfa49b7b3be744591f8562cf7aacb23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_fd65dac0c5e00f76d2f38c4933f0537ae6d85de1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_e30945bfedd2f8655b3bb3239a3fb4b7869fa9be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_a140a6c176012a1b364fb64420a783f9f6e9204b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a853dc6dbefc64580b500bf4bff5a2ae40997b65">
+        sha1="864f455eb7acf18953363b1228517dbe6239a34a">
         <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_01228f48ab132811c71a0e14353a93232367b881\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9a3b5a7a22c1eae9580810c7a1839fa971e624ce">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ecfcd13ef8fa1b42e79db211954acfb48cfcc03c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,15 +156,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Master Dave\.gradle\caches\modules-2\files-2.1\io.netty\netty\3.10.4.Final\e3a9be13921594357946e337cbec55d094f3870e\netty-3.10.4.Final.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e3a9be13921594357946e337cbec55d094f3870e">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\netty-3.10.4.Final_4ef3105d7e1ae896762ab91137a612c36f90fa26\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -201,12 +165,66 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Master Dave\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.12\8e20852d05222dc286bf1c71d78d0531e177c317\slf4j-api-1.7.12.jar"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="8e20852d05222dc286bf1c71d78d0531e177c317">
-        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.12_0ef420ae4581c69d7d5ac9f42d8e524b1c5da412\classes.dex" />
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_4fc681b1dc27d08e5ca918061fae25730bfd7bdc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_48b4c124481aad76ba39bf20befff027b24c2a20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d75f542e57185ed6b91140656867abd0fbbee6">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ecfcd13ef8fa1b42e79db211954acfb48cfcc03c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_bc3c9621804df345c665421a86ac235839609ca2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_08011eee1569e2207b0fb5f92efb365b062da20c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Master Dave\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_1f094eccff10466f1cbb5ac4c7c5e396aadccc66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Master Dave\.gradle\caches\modules-2\files-2.1\io.netty\netty\3.10.4.Final\e3a9be13921594357946e337cbec55d094f3870e\netty-3.10.4.Final.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3a9be13921594357946e337cbec55d094f3870e">
+        <dex dex="C:\Workspaces\Android\Miniprojekt\Gadgeothek\app\build\intermediates\transforms\dex\debug\folders\1000\10\netty-3.10.4.Final_4ef3105d7e1ae896762ab91137a612c36f90fa26\classes.dex" />
     </item>
 
 </items>
