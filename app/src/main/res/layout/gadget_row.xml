@@ -79,4 +79,13 @@
         android:layout_alignTop="@+id/gadget_manufacturer"
         android:layout_toRightOf="@+id/gadget_name"
         android:layout_toEndOf="@+id/gadget_name" />
+
+    <Button
+        android:text="reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/gadget_button"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentTop="true" />
 </RelativeLayout>
