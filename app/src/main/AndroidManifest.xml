@@ -21,7 +21,9 @@
             android:name=".LoginActivity"
             android:theme="@style/NoActionBar"></activity>
         <activity android:name=".LogoutActivity"></activity>
-        <activity android:name=".RegistrationActivity"></activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:theme="@style/NoActionBar"></activity>
         <activity android:name=".MenuActivity"></activity>
         <activity android:name=".GadgetActivity"></activity>
         <activity android:name=".LoanActivity"></activity>

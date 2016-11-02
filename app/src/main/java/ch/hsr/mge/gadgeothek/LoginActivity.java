@@ -29,6 +29,9 @@ public class LoginActivity extends AppCompatActivity {
         final EditText email = (EditText)findViewById(R.id.input_email);
         final EditText pass = (EditText)findViewById(R.id.input_password);
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
+
         loginButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -56,8 +59,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
     }
 
     @Override
