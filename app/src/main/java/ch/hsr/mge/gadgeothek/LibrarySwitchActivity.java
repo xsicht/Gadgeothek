@@ -1,15 +1,10 @@
 package ch.hsr.mge.gadgeothek;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
-
-import ch.hsr.mge.gadgeothek.service.Callback;
-import ch.hsr.mge.gadgeothek.service.LibraryService;
 
 public class LibrarySwitchActivity extends AppCompatActivity{
 
@@ -27,7 +22,7 @@ public class LibrarySwitchActivity extends AppCompatActivity{
         switchButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                MainActivity.serverAddress = newServer.getText().toString();
+               // MainActivity.serverAddress = newServer.getText().toString();
             }
         });
     }

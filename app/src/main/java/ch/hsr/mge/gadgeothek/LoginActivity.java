@@ -48,7 +48,8 @@ public class LoginActivity extends AppCompatActivity {
                     public void onCompletion(Boolean success) {
                         if(success) {
                             progressDialog.dismiss();
-                            startActivity(new Intent(LoginActivity.this, MenuActivity.class));
+                            finish();
+                            //startActivity(new Intent(LoginActivity.this, MenuActivity.class));
                         }
                     }
 
