@@ -1,5 +1,6 @@
 package ch.hsr.mge.gadgeothek;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -38,10 +39,16 @@ public class RegistrationActivity extends AppCompatActivity {
         btnSignup.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                final ProgressDialog progressDialog = new ProgressDialog(RegistrationActivity.this,
+                        R.style.AppTheme_Dark_Dialog);
+                progressDialog.setIndeterminate(true);
+                progressDialog.setMessage("Registering...");
+                progressDialog.show();
                 LibraryService.register(email.getText().toString(), name.getText().toString(), pass.getText().toString(), studId.getText().toString(), new Callback<Boolean>() {
                     @Override
                     public void onCompletion(Boolean success) {
                         if(success) {
+                            progressDialog.dismiss();
                             Toast.makeText(RegistrationActivity.this, "Registration successful", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(RegistrationActivity.this, LoginActivity.class));
                         }
@@ -49,6 +56,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
                     @Override
                     public void onError(String message) {
+                        progressDialog.dismiss();
                         Toast.makeText(RegistrationActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
                     }
                 });

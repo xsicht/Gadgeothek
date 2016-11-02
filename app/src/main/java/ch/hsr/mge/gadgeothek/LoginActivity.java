@@ -1,5 +1,6 @@
 package ch.hsr.mge.gadgeothek;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -35,17 +36,25 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this,
+                        R.style.AppTheme_Dark_Dialog);
+                progressDialog.setIndeterminate(true);
+                progressDialog.setMessage("Authenticating...");
+                progressDialog.show();
                 LibraryService.login(email.getText().toString(), pass.getText().toString(), new Callback<Boolean>() {
+
+
                     @Override
                     public void onCompletion(Boolean success) {
                         if(success) {
-                            Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
                             startActivity(new Intent(LoginActivity.this, MenuActivity.class));
                         }
                     }
 
                     @Override
                     public void onError(String message) {
+                        progressDialog.dismiss();
                         Toast.makeText(LoginActivity.this, "Login failed", Toast.LENGTH_SHORT).show();
                     }
                 });
