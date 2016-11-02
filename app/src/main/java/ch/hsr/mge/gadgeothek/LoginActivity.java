@@ -2,11 +2,12 @@ package ch.hsr.mge.gadgeothek;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import ch.hsr.mge.gadgeothek.service.Callback;
@@ -15,7 +16,7 @@ import ch.hsr.mge.gadgeothek.service.LibraryService;
 public class LoginActivity extends AppCompatActivity {
 
     Button loginButton;
-    Button registrationButton;
+    TextView linkSignup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +24,10 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         loginButton = (Button)findViewById(R.id.loginbutton);
-        registrationButton = (Button)findViewById(R.id.loginregisterbutton);
+        linkSignup = (TextView)findViewById(R.id.link_signup);
 
-        final EditText email = (EditText)findViewById(R.id.mailInput);
-        final EditText pass = (EditText)findViewById(R.id.passwordInput);
+        final EditText email = (EditText)findViewById(R.id.input_email);
+        final EditText pass = (EditText)findViewById(R.id.input_password);
 
         loginButton.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -48,12 +49,15 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        registrationButton.setOnClickListener(new View.OnClickListener(){
+        linkSignup.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 startActivity(new Intent(LoginActivity.this, RegistrationActivity.class));
             }
         });
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
     }
 
     @Override
