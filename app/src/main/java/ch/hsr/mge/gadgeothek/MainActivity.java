@@ -1,6 +1,5 @@
 package ch.hsr.mge.gadgeothek;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -17,8 +16,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import ch.hsr.mge.gadgeothek.service.LibraryService;
-
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -32,8 +29,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Gadgets");
-        LibraryService.setServerAddress("http://mge1.dev.ifs.hsr.ch/public");
-        startActivity(new Intent(this, LoginActivity.class));
 
         fragmentManager = getSupportFragmentManager();
 
@@ -118,7 +113,7 @@ public class MainActivity extends AppCompatActivity
 
     public void changeFragmentTo(Fragment fragment){
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.content_main, (Fragment)fragment);
+        fragmentTransaction.replace(R.id.drawer_layout, (Fragment)fragment);
         fragmentTransaction.commit();
 
     }

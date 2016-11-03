@@ -1,5 +1,6 @@
 package ch.hsr.mge.gadgeothek;
 
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
@@ -14,6 +15,7 @@ public class GadgetViewHolder extends RecyclerView.ViewHolder {
     TextView gadgetPrice;
     TextView gadgetCondition;
     Button gadgetBtnReserve;
+    CardView cardView;
 
 
     GadgetViewHolder(View itemView) {
@@ -24,6 +26,7 @@ public class GadgetViewHolder extends RecyclerView.ViewHolder {
         gadgetManufacturer = (TextView)itemView.findViewById(R.id.gadget_manufacturer);
         gadgetPrice = (TextView)itemView.findViewById(R.id.gadget_price);
         gadgetCondition = (TextView)itemView.findViewById(R.id.gadget_condition);
+        cardView = (CardView) itemView.findViewById(R.id.card_view);
         //gadgetBtnReserve = (Button) itemView.findViewById(R.id.gadget_button);
     }
 
