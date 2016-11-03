@@ -26,7 +26,7 @@ public class GadgetViewHolder extends RecyclerView.ViewHolder {
         gadgetManufacturer = (TextView)itemView.findViewById(R.id.gadget_manufacturer);
         gadgetPrice = (TextView)itemView.findViewById(R.id.gadget_price);
         gadgetCondition = (TextView)itemView.findViewById(R.id.gadget_condition);
-        cardView = (CardView) itemView.findViewById(R.id.card_view);
+        cardView = (CardView) itemView.findViewById(R.id.gadget_card_view);
         //gadgetBtnReserve = (Button) itemView.findViewById(R.id.gadget_button);
     }
 

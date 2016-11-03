@@ -21,13 +21,9 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
-        <activity android:name=".LogoutActivity" />
         <activity
             android:name=".RegistrationActivity"
             android:theme="@style/NoActionBar" />
-        <activity android:name=".LoanActivity" />
-        <activity android:name=".ReservationActivity" />
-        <activity android:name=".LibrarySwitchActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"

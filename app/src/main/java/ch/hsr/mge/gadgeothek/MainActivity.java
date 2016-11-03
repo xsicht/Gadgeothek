@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity
             getSupportActionBar().setTitle("Gadgets");
             changeFragmentTo(new GadgetFragment());
         } else if (id == R.id.nav_reservations) {
-
+            getSupportActionBar().setTitle("Reservation");
+            changeFragmentTo(new ReservationFragment());
         } else if (id == R.id.nav_loans) {
             getSupportActionBar().setTitle("Loans");
             changeFragmentTo(new LoanFragment());

@@ -1,12 +1,13 @@
 package ch.hsr.mge.gadgeothek;
 
-import android.app.Activity;
+import android.content.DialogInterface;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import java.util.List;
 
@@ -35,6 +36,7 @@ public class ReservationAdapter extends RecyclerView.Adapter<ReservationViewHold
 
     @Override
     public void onBindViewHolder(final ReservationViewHolder reservationViewHolder, final int index) {
+
             reservationViewHolder.reservationName.setText(reservations.get(index).getGadget().getName());
             reservationViewHolder.reservationManufacturer.setText(reservations.get(index).getGadget().getManufacturer());
             if (reservations.get(index).isReady()) {
@@ -42,25 +44,55 @@ public class ReservationAdapter extends RecyclerView.Adapter<ReservationViewHold
             } else {
                 reservationViewHolder.waiting_position.setText((reservations.get(index).getWatingPosition() + 1) + ". queued");
             }
-            reservationViewHolder.delete.setOnClickListener(new View.OnClickListener() {
+        reservationViewHolder.cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    LibraryService.deleteReservation(reservations.get(index), new Callback<Boolean>() {
-                        @Override
-                        public void onCompletion(Boolean input) {
+                    AlertDialog.Builder builder1 = new AlertDialog.Builder(v.getContext());
+                    builder1.setMessage("Do you want cancle the reservation?");
+                    builder1.setCancelable(true);
+                    final View finalView = v;
+                    builder1.setPositiveButton(
+                            "Yes",
+                            new DialogInterface.OnClickListener() {
 
-                        }
+                                public void onClick(DialogInterface dialog, int id) {
+                                    //show();
 
-                        @Override
-                        public void onError(String message) {
-                        }
-                    });
+                                    LibraryService.deleteReservation(reservations.get(index), new Callback<Boolean>() {
+                                        @Override
+                                        public void onCompletion(Boolean input) {
+                                            Snackbar.make(finalView, "Reservation cancled", Snackbar.LENGTH_LONG).show();
+                                        }
+
+                                        @Override
+                                        public void onError(String message) {
+                                            Snackbar.make(finalView, "Reservation Error", Snackbar.LENGTH_LONG).show();
+                                        }
+                                    });
+
+                                    dialog.cancel();
+
+                                }
+                            });
+
+                    builder1.setNegativeButton(
+                            "No",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            });
+
+                    AlertDialog alert11 = builder1.create();
+                    alert11.show();
+                    Log.d("cradview","cardview");
                 }
             });
     }
 
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
+
         super.onAttachedToRecyclerView(recyclerView);
     }
 }
