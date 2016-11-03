@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity
 
         fragmentManager = getSupportFragmentManager();
 
-        
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -91,6 +91,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_reservations) {
 
         } else if (id == R.id.nav_loans) {
+            getSupportActionBar().setTitle("Loans");
+            changeFragmentTo(new LoanFragment());
 
         } else if (id == R.id.nav_logout) {
             Toast.makeText(MainActivity.this, "Logout successful", Toast.LENGTH_SHORT).show();
