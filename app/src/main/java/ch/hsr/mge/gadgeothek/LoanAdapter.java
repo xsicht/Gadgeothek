@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import ch.hsr.mge.gadgeothek.domain.Loan;
@@ -40,7 +39,7 @@ public class LoanAdapter extends RecyclerView.Adapter<LoanViewHolder> {
         loanViewHolder.loanDate.setText(date);
         date = format.format(loans.get(index).overDueDate());
         loanViewHolder.returnDate.setText(date);
-        loanViewHolder.daysLeft.setText("" + loans.get(index).getDaysToReturn());
+        loanViewHolder.daysLeft.setText("" + loans.get(index).getReturnDate());
 
         if(!loans.get(index).isOverdue()){
             loanViewHolder.daysLeft.setBackgroundColor(Color.parseColor("#ff0000"));
