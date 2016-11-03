@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.view.ContextThemeWrapper;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -89,9 +90,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 final EditText edittext = new EditText(LoginActivity.this);
-                AlertDialog.Builder alert = new AlertDialog.Builder(v.getContext());
+                AlertDialog.Builder alert = new AlertDialog.Builder((new ContextThemeWrapper(v.getContext(), R.style.AlertDialogCustom)));
                 edittext.setText(settings.getString("serverAdress", "default"));
-                alert.setMessage("Enter Your Message");
+                alert.setMessage("Enter server adress");
                 alert.setView(edittext);
                 alert.setPositiveButton("Save", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
