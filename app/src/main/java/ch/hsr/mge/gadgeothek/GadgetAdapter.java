@@ -44,7 +44,7 @@ public class GadgetAdapter extends RecyclerView.Adapter<GadgetViewHolder> {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder1 = new AlertDialog.Builder(v.getContext());
-                builder1.setMessage("Do you want reserve "  + gadgetViewHolder.gadgetName.getText());
+                builder1.setMessage("Do you want reserve "  + gadgetViewHolder.gadgetName.getText() +"?");
                 builder1.setCancelable(true);
                 //Snackbar.make(v, "Do you want reserve this gadget?", Snackbar.LENGTH_LONG).show();
                 final View finalView = v;

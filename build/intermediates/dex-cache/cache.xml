@@ -214,7 +214,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b1f8bb81bc6492b243184e6d2a6ff4bec393467c">
+        sha1="53e23a72fa1e44a43b5396baec63ed51708e84b8">
         <dex dex="/home/samuel/AndroidStudioProjects/Gadgeothek/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5412a2efa16913af5911e1379c3cbfe7ea140491/classes.dex" />
     </item>
     <item

@@ -12,7 +12,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:theme="@style/NoActionBar"
-            android:name=".LoginActivity">
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="stateHidden">
             <!--android:theme="@style/NoActionBar" -->
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
